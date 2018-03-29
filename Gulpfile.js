@@ -192,8 +192,7 @@ gulp.task("amd", function() {
         }}))
         .pipe(gulp.dest("./"))
         .pipe(notify({ message: "amd version task complete"}));
-}); 
-
+});
 
 var codeMirror = {
     path : {
@@ -234,6 +233,7 @@ var codeMirror = {
         "yaml",
         "erlang",
         "jade",
+        "twig"
     ],
 
     addons : [
